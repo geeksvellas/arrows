@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "216185370888",
+    "project_id": "arrow-wms-prod",
+    "storage_bucket": "arrow-wms-prod.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:216185370888:android:823c81cadad0c59613d4bd",
+        "android_client_info": {
+          "package_name": "arrows.vella.com.arrowswms"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "216185370888-8bnpft7rhh6bji67p7fsjbu3kt84f8l2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDDmtoaFoz2GwHc7Sp_YYeWevXSKhB8C98"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "216185370888-8bnpft7rhh6bji67p7fsjbu3kt84f8l2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
