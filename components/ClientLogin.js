@@ -29,14 +29,14 @@ export default function ClientLogin({navigation}) {
       var usermail = username + '@client.com';
       auth()
         .signInWithEmailAndPassword(usermail, password)
-        .then((data) => {
+        .then(data => {
           console.log('User signed in!', data);
           navigation.reset({
             index: 0,
             routes: [{name: 'SignInContainer'}],
           });
         })
-        .catch((error) => {
+        .catch(error => {
           console.log(error);
           setloading(false);
           if (error.code === 'auth/user-not-found') {
@@ -83,7 +83,7 @@ export default function ClientLogin({navigation}) {
           <TextInput
             placeholderTextColor="black"
             style={[styles.input, {marginBottom: 10}]}
-            onChangeText={(text) => {
+            onChangeText={text => {
               setusername(text);
               setinValidText('');
             }}
@@ -100,7 +100,7 @@ export default function ClientLogin({navigation}) {
               passwordIsError ? styles.error : null,
               {marginBottom: 10},
             ]}
-            onChangeText={(text) => {
+            onChangeText={text => {
               setpassword(text);
               setpasswordIsError(false);
               setinValidText('');
